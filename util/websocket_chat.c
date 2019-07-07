@@ -6,7 +6,7 @@
 #include "mongoose.h"
 
 static sig_atomic_t s_signal_received = 0;
-static const char *s_http_port = "8000";
+static const char *s_http_port = "3579";
 static struct mg_serve_http_opts s_http_server_opts;
 static char serverpass[100];
 static struct mg_connection *selfClient = NULL;
